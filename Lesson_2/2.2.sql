@@ -1,4 +1,4 @@
 -- SELECT結果の確認
--- ①shohin_id=0006,0008
--- ②shohin_id=0006,0008以外
+-- ①shohin_id=0006,0008 ⇒ 何も返ってこない（IS NULLでしかNULLは判定できない）
+-- ②shohin_id=0006,0008以外 ⇒ 何も返ってこない（IS NOT NULLでしかNULLは判定できない）
 -- ③何も返ってこない
